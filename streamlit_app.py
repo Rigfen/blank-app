@@ -46,5 +46,5 @@ with left_col:
                     )
 
 with right_col:
-    product_image = Image.open(Assets_DIR / "product.png")
+    product_image = Image.open(Assets_DIR / "Screenshot 2025-11-30 135310.png")
     st.image(product_image, width=450 )
