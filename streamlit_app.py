@@ -4,7 +4,7 @@ from PIL import Image #pip install pillow
 
 #---Path settings---
 This_DIR = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-Assets_DIR = This_DIR / "download.png"
+Assets_DIR = This_DIR / "assets"
 Styles_DIR = This_DIR / "styles"
 CSS_File = Styles_DIR / "main.css"
 
