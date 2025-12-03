@@ -53,7 +53,7 @@ with left_col:
           text-decoration: none;
           font-weight: bold;
        ">
-       🗓️ Get Little Planner
+       🗓️ Buy Me a Hot Chocolate
     </a>
     ''',
     unsafe_allow_html=True
