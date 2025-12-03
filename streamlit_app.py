@@ -63,3 +63,6 @@ with left_col:
 with right_col:
     product_image = Image.open(Assets_DIR / "download.png")
     st.image(product_image, width=450 )
+with left_col:
+    product_images = Image.open(Assets_DIR / "Organize_Away.png")
+    st.image(product_image, width=600 )
