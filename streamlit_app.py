@@ -46,5 +46,5 @@ with left_col:
                     )
 
 with right_col:
-    product_image = Image.open(Assets_DIR / "download.png")
+    product_image = Image.open(Assets_DIR / "pictures" / "download.png")
     st.image(product_image, width=450 )
