@@ -41,9 +41,24 @@ with left_col:
     st.text("")
     st.write(Product_Description)
     st.markdown(
-        f'<a href={Stripe_checkout} class= "button"> 🗓️ Get Little Planner</a>',
-            unsafe_allow_html=True
-                    )
+    f'''
+    <a href="{Stripe_checkout}" 
+       style="
+          display: inline-block;
+          padding: 12px 24px;
+          font-size: 20px;
+          color: white;
+          background-color: #ff4b4b;
+          border-radius: 8px;
+          text-decoration: none;
+          font-weight: bold;
+       ">
+       🗓️ Get Little Planner
+    </a>
+    ''',
+    unsafe_allow_html=True
+)
+
 
 with right_col:
     product_image = Image.open(Assets_DIR / "download.png")
