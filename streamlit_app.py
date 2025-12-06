@@ -53,7 +53,7 @@ with left_col:
           text-decoration: none;
           font-weight: bold;
        ">
-       🗓️Get the Planner!
+       🗓️More App contributions
     </a>
     ''',
     unsafe_allow_html=True
@@ -66,3 +66,16 @@ with right_col:
 with left_col:
     product_image = Image.open(Assets_DIR / "download.png")
     st.image(product_image, width=450 )
+
+st.markdown(
+    """
+    <a href="https://ourudm.streamlit.app/" target="_blank">
+        <button style="padding: 0.6em 1.2em; background-color: #1E90FF; 
+                       color: white; border: none; border-radius: 8px;
+                       font-size: 16px; cursor: pointer;">
+           Use Little Planner Here
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
+)
